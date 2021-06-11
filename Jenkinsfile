@@ -3,7 +3,8 @@ pipeline
     agent any
     environment 
     {
-        dotnet = "C:\\..\\dotnet\\dotnet.exe"
+        sciezka = "Program Files"
+        dotnet = "C:\\" + sciezka + "\\dotnet\\dotnet.exe"
     }
     stages 
     {
