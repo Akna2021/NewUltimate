@@ -2,6 +2,7 @@ pipeline
 {
     agent any
     environment 
+    {
     
         dot = 'C:\\"Program Files"\\dotnet\\dotnet.exe'
     }
