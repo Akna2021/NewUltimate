@@ -2,9 +2,8 @@ pipeline
 {
     agent any
     environment 
-    {
-        sciezka = '\\Program Files\\'
-        dot = ('C:' .sciezka. 'dotnet\\dotnet.exe')
+    
+        dot =  'C:\\"Program Files"\\dotnet\\dotnet.exe'
     }
     stages 
     {
