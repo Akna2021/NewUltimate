@@ -14,7 +14,7 @@ pipeline
         {
             steps 
             {
-                bat 'dotnet build'
+                bat 'dot build'
             }
         }
         stage('Run') 
