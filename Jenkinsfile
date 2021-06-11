@@ -1,23 +1,32 @@
-pipeline {
+pipeline 
+{
     agent any
-    environment {
+    environment 
+    {
         dotnet = 'C:\\Program Files\\dotnet\\dotnet.exe'
     }
-    stages {
-        stage('Build') {
-            steps {
+    stages 
+    {
+        stage('Build') 
+        {
+            steps 
+            {
                 bat 'dotnet build'
             }
         }
-        stage('Run') {
-            steps {
+        stage('Run') 
+        {
+            steps 
+            {
                 bat 'dotnet run'
             }
         }
-        stage('Clean') {
-            steps {
+        stage('Clean') 
+        {
+            steps 
+            {
                 bat 'dotnet clean'
+            }
         }
     }
- }
 }
