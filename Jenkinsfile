@@ -4,7 +4,7 @@ pipeline
     environment 
     {
         sciezka = "Program Files"
-        dotnet = "C:\\sciezka\\dotnet\\dotnet.exe"
+        dotnet = ("C:\\" + sciezka + "\\dotnet\\dotnet.exe")
     }
     stages 
     {
