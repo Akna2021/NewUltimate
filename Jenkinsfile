@@ -6,7 +6,7 @@ pipeline
         sciezka = 'Program Files'
         dot1 = 'C:\\' 
         dot2 = '\\dotnet\\dotnet.exe'
-        dot = Join(dot1, sciezka, dot2)
+        dot = dot1 + sciezka + dot2
     }
     stages 
     {
