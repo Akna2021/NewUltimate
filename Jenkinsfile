@@ -3,7 +3,7 @@ pipeline
     agent any
     environment 
     {
-        sciezka = "Program Files"
+        sciezka = 'Program Files'
         dot1 = 'C:\\' 
         dot2 = '\\dotnet\\dotnet.exe'
         dot = Join(dot1, sciezka, dot2)
