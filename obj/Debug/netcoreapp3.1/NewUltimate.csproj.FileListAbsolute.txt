@@ -1,0 +1,13 @@
+C:\Users\Student\Desktop\KURS\NewUltimate\bin\Debug\netcoreapp3.1\NewUltimate.exe
+C:\Users\Student\Desktop\KURS\NewUltimate\bin\Debug\netcoreapp3.1\NewUltimate.deps.json
+C:\Users\Student\Desktop\KURS\NewUltimate\bin\Debug\netcoreapp3.1\NewUltimate.runtimeconfig.json
+C:\Users\Student\Desktop\KURS\NewUltimate\bin\Debug\netcoreapp3.1\NewUltimate.runtimeconfig.dev.json
+C:\Users\Student\Desktop\KURS\NewUltimate\bin\Debug\netcoreapp3.1\NewUltimate.dll
+C:\Users\Student\Desktop\KURS\NewUltimate\bin\Debug\netcoreapp3.1\NewUltimate.pdb
+C:\Users\Student\Desktop\KURS\NewUltimate\obj\Debug\netcoreapp3.1\NewUltimate.csprojAssemblyReference.cache
+C:\Users\Student\Desktop\KURS\NewUltimate\obj\Debug\netcoreapp3.1\NewUltimate.AssemblyInfoInputs.cache
+C:\Users\Student\Desktop\KURS\NewUltimate\obj\Debug\netcoreapp3.1\NewUltimate.AssemblyInfo.cs
+C:\Users\Student\Desktop\KURS\NewUltimate\obj\Debug\netcoreapp3.1\NewUltimate.csproj.CoreCompileInputs.cache
+C:\Users\Student\Desktop\KURS\NewUltimate\obj\Debug\netcoreapp3.1\NewUltimate.dll
+C:\Users\Student\Desktop\KURS\NewUltimate\obj\Debug\netcoreapp3.1\NewUltimate.pdb
+C:\Users\Student\Desktop\KURS\NewUltimate\obj\Debug\netcoreapp3.1\NewUltimate.genruntimeconfig.cache
