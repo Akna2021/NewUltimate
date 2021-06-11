@@ -4,7 +4,7 @@ pipeline
     environment 
     {
         sciezka = "Program Files"
-        dot = 'C:\\"Program Files"\\dotnet\\dotnet.exe'
+        dot = '\"C:\\Program Files\\dotnet\\dotnet.exe\"'
     }
     stages 
     {
