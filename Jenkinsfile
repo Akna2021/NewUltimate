@@ -4,7 +4,7 @@ pipeline
     environment 
     {
         sciezka = "Program Files"
-        dotnet = ("C:\\" + sciezka + "\\dotnet\\dotnet.exe")
+        dot = ("C:\\", sciezka, "\\dotnet\\dotnet.exe")
     }
     stages 
     {
@@ -12,21 +12,21 @@ pipeline
         {
             steps 
             {
-                bat 'dotnet build'
+                bat 'dot build'
             }
         }
         stage('Run') 
         {
             steps 
             {
-                bat 'dotnet run'
+                bat 'dot run'
             }
         }
         stage('Clean') 
         {
             steps 
             {
-                bat 'dotnet clean'
+                bat 'dot clean'
             }
         }
     }
