@@ -11,21 +11,21 @@ pipeline
         {
             steps 
             {
-                bat "${env.dotnet} build --configuration Release"
+                bat "${env.dot} build --configuration Release"
             }
         }
         stage('Run') 
         {
             steps 
             {
-                bat "${env.dotnet} run"
+                bat "${env.dot} run"
             }
         }
         stage('Clean') 
         {
             steps 
             {
-                bat "${env.dotnet} clean"
+                bat "${env.dot} clean"
             }
         }
     }
