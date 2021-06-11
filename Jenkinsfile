@@ -4,7 +4,9 @@ pipeline
     environment 
     {
         sciezka = "Program Files"
-        dot = 'C:\\' + sciezka + '\\dotnet\\dotnet.exe'
+        dot1 = 'C:\\' 
+        dot2 = '\\dotnet\\dotnet.exe'
+        dot = dotnet.Join(dot1, sciezka, dot2)
     }
     stages 
     {
@@ -12,7 +14,7 @@ pipeline
         {
             steps 
             {
-                bat 'dot build'
+                bat 'dotnet build'
             }
         }
         stage('Run') 
