@@ -6,7 +6,7 @@ pipeline
         sciezka = "Program Files"
         dot1 = 'C:\\' 
         dot2 = '\\dotnet\\dotnet.exe'
-        dot = dotnet.Join(dot1, sciezka, dot2)
+        dot = Join(dot1, sciezka, dot2)
     }
     stages 
     {
