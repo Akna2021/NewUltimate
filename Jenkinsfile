@@ -3,7 +3,7 @@ pipeline
     agent any
     environment 
     {
-        dot = 'C:\\Program**\\dotnet\\dotnet.exe'
+        dot = 'C:\\"Program Files"\\dotnet\\dotnet.exe'
     }
     stages 
     {
@@ -11,7 +11,7 @@ pipeline
         {
             steps 
             {
-                bat 'dot build'
+                bat '$dot build'
             }
         }
         stage('Run') 
